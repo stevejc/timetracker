@@ -1,0 +1,21 @@
+
+development:
+  adapter: postgresql
+  database: timetracker_dev
+  username: postgres
+  password: password
+  host: localhost
+
+test: &TEST
+  adapter: postgresql
+  database: timetracker_test
+  username: postgres
+  password: password
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: timetracker_prod
+  username: timetracker
+  password:
+  host: localhost
